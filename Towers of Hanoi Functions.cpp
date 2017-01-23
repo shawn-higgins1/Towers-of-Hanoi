@@ -75,14 +75,14 @@ void move(Peg &s, Peg &d, BITMAP *buffer, Peg same, int &moves){
 	}*/
 	
 	//increases moves and prints out the result
-	moves++;
+	//moves++;
 	d.add(s.pop());
-	clear(buffer);
-	drawBackground(buffer,moves);
-	s.print(buffer);
-	d.print(buffer);
-	same.print(buffer);
-	blit(buffer, screen, 0, 0, 0, 0, 640, 300);
+	//clear(buffer);
+	//drawBackground(buffer,moves);
+	//s.print(buffer);
+	//d.print(buffer);
+	//same.print(buffer);
+	//blit(buffer, screen, 0, 0, 0, 0, 640, 300);
 	return;
 }
 
